@@ -1,0 +1,77 @@
+.uilogin_bg
+{
+    background: #999; /* for non-css3 browsers */
+    /* for IE */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E5E5E5');
+    
+    /* for webkit browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E5E5E5));
+    
+    /* for firefox 3.6+ */
+    background: -moz-linear-gradient(top,  #FFFFFF,  #E5E5E5); 
+}
+
+.uisignin
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.uilogin_module
+{
+    margin-top: 100px;
+}
+
+.uitop_bg
+{
+    background-color: #FFF;
+    line-height: 30px;
+}
+
+.uitop_col
+{
+    font-size: 18px;
+}
+
+.uitop_menu
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.uitable
+{
+    height: 460px;
+    color: #F5F5F5;
+    font-size: 12px;
+    visibility: visible;
+}
+
+.uischedule
+{
+    background-color: #337DA5;
+    height: 172px;
+    margin-top: 15px;
+}
+
+.uisch_div
+{
+    height: 172px;
+    overflow: auto;
+}
+
+.uialerts
+{
+    background-color: #9e0e0e;
+    height: 165px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.uialr_div
+{
+    height: 165px;
+    overflow: auto;
+}
